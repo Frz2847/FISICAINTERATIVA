@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.exercise {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Primeira Lei - Tons de Vermelho */
+.primeira-lei {
+    background-color: #FFE4E1;
+    border: 2px solid #FF6347;
+}
+
+.primeira-lei h3 {
+    color: #8B0000;
+}
+
+/* Segunda Lei - Tons de Amarelo */
+.segunda-lei {
+    background-color: #FFFACD;
+    border: 2px solid #FFD700;
+}
+
+.segunda-lei h3 {
+    color: #DAA520;
+}
+
+/* Terceira Lei - Tons de Verde */
+.terceira-lei {
+    background-color: #F0FFF0;
+    border: 2px solid #90EE90;
+}
+
+.terceira-lei h3 {
+    color: #2E8B57;
+}
+
+/* Exercício Misto */
+.misto {
+    background-color: #E6E6FA;
+    border: 2px solid #9370DB;
+}
+
+.misto h3 {
+    color: #4B0082;
+}
+
+.resposta {
+    display: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}

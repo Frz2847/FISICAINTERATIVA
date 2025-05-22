@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios das Leis de Newton</title>
+    <link rel="stylesheet" href="5newton_laws.css">
+</head>
+<body>
+    <h1>Exercícios das Leis de Newton</h1>
+
+    <!-- Primeira Lei de Newton (3 exercícios) -->
+    <div class="exercise primeira-lei">
+        <h3>Exercício 1 - Primeira Lei (Inércia)</h3>
+        <p>Um livro está descansando em uma mesa horizontal sem atrito. O que acontecerá com o livro?</p>
+        <button onclick="toggleResposta('resposta1')">Ver Resposta</button>
+        <div id="resposta1" class="resposta">
+            O livro permanecerá em repouso, pois não há forças externas atuando para movê-lo. Esta é a Lei da Inércia - um objeto em repouso tende a permanecer em repouso.
+        </div>
+    </div>
+
+    <div class="exercise primeira-lei">
+        <h3>Exercício 2 - Primeira Lei (Inércia)</h3>
+        <p>Imagine um carro que para abruptamente. O que acontece com os passageiros no interior do veículo?</p>
+        <button onclick="toggleResposta('resposta2')">Ver Resposta</button>
+        <div id="resposta2" class="resposta">
+            Os passageiros tendem a continuar em movimento, projetando-se para frente. Isso ocorre porque seus corpos continuam em movimento mesmo quando o carro para, demonstrando a Lei da Inércia.
+        </div>
+    </div>
+
+    <div class="exercise primeira-lei">
+        <h3>Exercício 3 - Primeira Lei (Inércia)</h3>
+        <p>Por que os astronautas flutuam no espaço sem movimento quando não há força sendo aplicada?</p>
+        <button onclick="toggleResposta('resposta3')">Ver Resposta</button>
+        <div id="resposta3" class="resposta">
+            No espaço, sem forças externas significativas, um corpo em movimento continua se movendo na mesma direção e velocidade (Lei da Inércia). Os astronautas mantêm seu estado de movimento ou repouso.
+        </div>
+    </div>
+
+    <!-- Segunda Lei de Newton (3 exercícios) -->
+    <div class="exercise segunda-lei">
+        <h3>Exercício 4 - Segunda Lei (Força e Aceleração)</h3>
+        <p>Se você aplicar o dobro da força em um objeto, o que acontecerá com sua aceleração?</p>
+        <button onclick="toggleResposta('resposta4')">Ver Resposta</button>
+        <div id="resposta4" class="resposta">
+            A aceleração do objeto também dobrará. A Segunda Lei de Newton estabelece que a aceleração é diretamente proporcional à força aplicada (F = ma).
+        </div>
+    </div>
+
+    <div class="exercise segunda-lei">
+        <h3>Exercício 5 - Segunda Lei (Força e Aceleração)</h3>
+        <p>Compare o movimento de um carrinho de 1 kg empurrado com uma força de 10N e outro de 2 kg com a mesma força.</p>
+        <button onclick="toggleResposta('resposta5')">Ver Resposta</button>
+        <div id="resposta5" class="resposta">
+            O carrinho de 1 kg terá uma aceleração maior porque tem menos massa. Quanto menor a massa, maior será a aceleração para a mesma força aplicada.
+        </div>
+    </div>
+
+    <div class="exercise segunda-lei">
+        <h3>Exercício 6 - Segunda Lei (Força e Aceleração)</h3>
+        <p>Uma força de 50N move um objeto de 10 kg. Qual será sua aceleração?</p>
+        <button onclick="toggleResposta('resposta6')">Ver Resposta</button>
+        <div id="resposta6" class="resposta">
+            Usando F = ma, temos: 50N = 10kg * a. Portanto, a aceleração será de 5 m/s². A força dividida pela massa resulta na aceleração do objeto.
+        </div>
+    </div>
+
+    <!-- Terceira Lei de Newton (3 exercícios) -->
+    <div class="exercise terceira-lei">
+        <h3>Exercício 7 - Terceira Lei (Ação e Reação)</h3>
+        <p>Quando um foguete expele gases para cima, o que acontece com o foguete?</p>
+        <button onclick="toggleResposta('resposta7')">Ver Resposta</button>
+        <div id="resposta7" class="resposta">
+            O foguete é impulsionado para baixo pela reação dos gases expelidos para cima. Cada ação tem uma reação igual e oposta, fazendo o foguete subir.
+        </div>
+    </div>
+
+    <div class="exercise terceira-lei">
+        <h3>Exercício 8 - Terceira Lei (Ação e Reação)</h3>
+        <p>Quando você nada, o que acontece com a água ao seu redor?</p>
+        <button onclick="toggleResposta('resposta8')">Ver Resposta</button>
+        <div id="resposta8" class="resposta">
+            Ao empurrar a água para trás (ação), você é empurrado para frente (reação). A água recebe uma força na direção oposta à sua direção de movimento.
+        </div>
+    </div>
+
+    <div class="exercise terceira-lei">
+        <h3>Exercício 9 - Terceira Lei (Ação e Reação)</h3>
+        <p>Explique por que, ao atirar uma bola, a bola empurra sua mão para trás.</p>
+        <button onclick="toggleResposta('resposta9')">Ver Resposta</button>
+        <div id="resposta9" class="resposta">
+            Quando você aplica uma força na bola para lançá-la (ação), a bola aplica uma força igual e oposta em sua mão (reação), fazendo-a sentir um leve recuo.
+        </div>
+    </div>
+
+    <!-- Exercício Misto -->
+    <div class="exercise misto">
+        <h3>Exercício 10 - Desafio Misto das Leis de Newton</h3>
+        <p>Um astronauta empurra uma caixa de 50 kg com uma força de 200N em uma estação espacial. Qual será a aceleração da caixa? Se o astronauta empurrar a caixa, o que acontecerá com ele?</p>
+        <button onclick="toggleResposta('resposta10')">Ver Resposta</button>
+        <div id="resposta10" class="resposta">
+            Primeira Lei: No espaço, sem atrito, a caixa continuará em movimento após o empurrão.<br>
+            Segunda Lei: Aceleração = Força/Massa = 200N/50kg = 4 m/s²<br>
+            Terceira Lei: Ao empurrar a caixa, o astronauta será empurrado na direção oposta com a mesma força.
+        </div>
+    </div>
+
+    <div class="navigation">
+<li><a href="2menu.html">Menu Principal</a></li>
+            <li><a href="3newton.html">Leis de Newton</a></li>
+            <li><a href="4games.html">Jogos</a></li>
+            <li><a href="../5newton_laws.html">Avaliação</a></li>
+    </div>
+
+    <script>
+        function toggleResposta(id) {
+            var resposta = document.getElementById(id);
+            if (resposta.style.display === 'block') {
+                resposta.style.display = 'none';
+            } else {
+                resposta.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
